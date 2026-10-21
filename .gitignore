@@ -1,0 +1,22 @@
+# Python bytecode & virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment variables & credentials (CRITICAL FOR SECURITY)
+.env
+*.json
+*.pem
+*.key
+
+# IDE & OS temporary files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# dbt temporary build artifacts
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
