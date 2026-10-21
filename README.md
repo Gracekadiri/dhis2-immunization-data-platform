@@ -1,4 +1,3 @@
-```markdown
 # DHIS2 Immunization Data Platform
 
 ## Executive Summary
@@ -10,7 +9,6 @@ An end-to-end data platform designed to extract, transform, and visualize public
 - **Data Warehouse:** Google BigQuery
 - **Transformation & Data Quality:** dbt (data build tool)
 - **Visualization & Analytics:** Power BI
-
 ## Repository Structure
 - `docs/` System architecture, data dictionaries, and setup guides
 - `src/` Ingestion scripts for DHIS2 API
