@@ -23,24 +23,24 @@ An end-to-end data platform designed to extract, transform, and visualize public
    ```powershell
    cd C:\Projects\dhis2-immunization-data-platform
 
-
+    ```
 
 2. **Create and activate the virtual environment:**
-```powershell
-py -3 -m venv .venv
+    ```powershell
+    py -3 -m venv .venv
 
-```
+    ```
 
 
-*(Note: If PowerShell blocks script execution, run: `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process`)*
-```powershell
-.venv\Scripts\Activate
+    *(Note: If PowerShell blocks script execution, run: `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process`)*
+    ```powershell
+    .venv\Scripts\Activate
 
-```
+    ```
 
 
 3. **Install the dependencies:**
-```powershell
-pip install -r requirements.txt
+    ```powershell
+    pip install -r requirements.txt
 
-```
+    ```
