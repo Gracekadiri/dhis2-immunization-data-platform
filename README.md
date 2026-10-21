@@ -9,6 +9,7 @@ An end-to-end data platform designed to extract, transform, and visualize public
 - **Data Warehouse:** Google BigQuery
 - **Transformation & Data Quality:** dbt (data build tool)
 - **Visualization & Analytics:** Power BI
+
 ## Repository Structure
 - `docs/` System architecture, data dictionaries, and setup guides
 - `src/` Ingestion scripts for DHIS2 API
@@ -41,11 +42,5 @@ py -3 -m venv .venv
 3. **Install the dependencies:**
 ```powershell
 pip install -r requirements.txt
-
-```
-
-
-
-```
 
 ```
