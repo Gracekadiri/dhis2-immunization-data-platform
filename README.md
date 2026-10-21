@@ -18,7 +18,7 @@ An end-to-end data platform designed to extract, transform, and visualize public
 - `dashboards/` Power BI templates and reporting specifications
 
 ## Setup & Getting Started
-+
+
 1. **Clone the repository** (or open your local project folder):
    ```powershell
    cd C:\Projects\dhis2-immunization-data-platform
