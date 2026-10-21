@@ -1,3 +1,4 @@
+```markdown
 # DHIS2 Immunization Data Platform
 
 ## Executive Summary
@@ -11,11 +12,42 @@ An end-to-end data platform designed to extract, transform, and visualize public
 - **Visualization & Analytics:** Power BI
 
 ## Repository Structure
-- `docs/` - System architecture, data dictionaries, and setup guides
-- `src/` - Ingestion scripts for DHIS2 API
-- `dags/` - Airflow DAGs for scheduled pipeline execution
-- `dbt/` - Data transformations and quality testing models
-- `dashboards/` - Power BI templates and reporting specifications
+- `docs/` System architecture, data dictionaries, and setup guides
+- `src/` Ingestion scripts for DHIS2 API
+- `dags/` Airflow DAGs for scheduled pipeline execution
+- `dbt/` Data transformations and quality testing models
+- `dashboards/` Power BI templates and reporting specifications
 
 ## Setup & Getting Started
-*Instructions for setting up the environment and running the pipeline locally will be added as components are built.*
+
+1. **Clone the repository** (or open your local project folder):
+   ```powershell
+   cd C:\Projects\dhis2-immunization-data-platform
+
+```
+
+2. **Create and activate the virtual environment:**
+```powershell
+py -3 -m venv .venv
+
+```
+
+
+*(Note: If PowerShell blocks script execution, run: `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process`)*
+```powershell
+.venv\Scripts\Activate
+
+```
+
+
+3. **Install the dependencies:**
+```powershell
+pip install -r requirements.txt
+
+```
+
+
+
+```
+
+```
